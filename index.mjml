@@ -60,7 +60,7 @@
       }
 
       .offer-text {
-        background-image: url("https://drive.google.com/uc?export=view&id=1EFwc6CB6s45GoJHidZoroH-wLWuOPpUa");
+        background-image: url("https://drive.google.com/uc?export=view&id=1ten6jrSTM5GXTmuFevMDqaMU_G4N_EOr");
         background-size: cover;
         padding-left: 42px;
         padding-bottom: 10px;
@@ -107,11 +107,18 @@
         text-align: center;
         width: 100%;
         max-width: 536px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        background-image: url("https://drive.google.com/uc?export=1nPDFw-oi4QmAGYsn_tfKOBayywvnYyvC");
+        padding-top: 14px;
+        padding-bottom: 14px;
         background-size: cover;
         background-repeat: no-repeat;
+        border: 1px dashed;
+        border-left: solid;
+        border-right: solid;
+        border-image: linear-gradient(270.05deg, #FAE4BC 0.02%, #DEF4E4 99.96%) 1 dashed;
+        border-radius: 1px;
+        background: linear-gradient(90.45deg, rgba(159, 213, 213, 0.08) -1.57%, rgba(181, 238, 200, 0.08) 47.86%, rgba(251, 231, 188, 0.08) 99.69%);
+        backdrop-filter: blur(20px);
+        
       }
 
       .cta-img {
@@ -127,23 +134,38 @@
         font-size: 15px;
         font-weight: bold;
       }
+
+      .questions-title {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: bold;
+        color: #A8DCCE;
+      }
+
+      .questions-link {
+        font-style: normal;
+        font-weight: regular;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+      }
     </mj-style>
   </mj-head>
 
   <mj-body background-color="#f6f3f1">
-    <mj-wrapper background-color="#27273F">
+    <mj-wrapper background-color="#27273F" background-url="https://drive.google.com/uc?export=view&id=1Xn1xfvaC97HohG_eE-IktLq8fkAGghV8" background-size="cover">
 
       <!-- Head -->
       <mj-section mj-class="hero" padding-bottom="16px">
         <mj-column>
-          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=17MU10oVzqP9ulN2XOYKC9sIk377qT909" />
+          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=1Qehhku_2EDDp1eBKprU1rY0RWrN-xh9T" />
         </mj-column>
       </mj-section>
 
       <!-- Offer -->
       <mj-section padding-bottom="48px" css-class="offer">
         <mj-column width="25%" padding-right="20px" vertical-align="bottom">
-          <mj-image width="124px" src="https://drive.google.com/uc?export=view&id=1NNC8hvDxPc_7zBypw8aFEGNdCavATrAb" />
+          <mj-image width="124px" src="https://drive.google.com/uc?export=view&id=1tV0wlTfqrzTim0E9Pl8uWerlKtpZRZrL" />
         </mj-column>
         <mj-column width="75%" vertical-align="bottom">
           <mj-text>
@@ -178,15 +200,15 @@
         <mj-column>
           <mj-text>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=1pFHa-FN7bOfS6pqgv7Erto1S_wqk5Mbi" />
+              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
               <p>Role: <b>UI/UX Designer</b></p>
             </span>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=1pFHa-FN7bOfS6pqgv7Erto1S_wqk5Mbi" />
+              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
               <p>Type: <b>part-time</b></p>
             </span>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=1pFHa-FN7bOfS6pqgv7Erto1S_wqk5Mbi" />
+              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
               <p>Hours: <b>4 hrs per day</b></p>
             </span>
           </mj-text>
@@ -194,15 +216,15 @@
         <mj-column>
           <mj-text>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=1pFHa-FN7bOfS6pqgv7Erto1S_wqk5Mbi" />
+              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
               <p>Compensation: <b>$1000</b></p>
             </span>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=1pFHa-FN7bOfS6pqgv7Erto1S_wqk5Mbi" />
+              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
               <p>Starting date: <b>10.05.2022</b></p>
             </span>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=1pFHa-FN7bOfS6pqgv7Erto1S_wqk5Mbi" />
+              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
               <p>Test task payment: <b>$100</b></p>
             </span>
           </mj-text>
@@ -217,12 +239,13 @@
           </mj-text>
         </mj-column>
       </mj-section>
+
       <!-- 1 -->
       <mj-section mj-class="benefit-wrap">
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1OhCvwYlaTyPEBYeKkrE94mBKSZKWUUKO" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1BA_F72aRCcEvc2YTrXJFI7mqW-36WRTZ" />
               <p class="benefit-text">Design<br>Community</p>
             </div>
           </mj-text>
@@ -235,7 +258,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1dpop7Mj9Iyaje_-77A014bB4c00XfvW4" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1E70jQNYBDhu0kxHwzLw2_3dcYVBkv-dd" />
               <p class="benefit-text">Constant<br>Flow of Work</p>
             </div>
           </mj-text>
@@ -248,7 +271,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=15VSaGsua9pf4EyXuAFxDpGnrmyScPWTZ" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1-nft7sWj3wRgzDaNiNf72EkZQV9DaSeJ" />
               <p class="benefit-text">Remote<br>Work</p>
             </div>
           </mj-text>
@@ -260,7 +283,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="54%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1DYOi1ib41V3CwTj0X5um_r2xXkNZ4Is8" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1jsuOqa6PYSf2RJHc1UYDx_8i6IMFaiRQ" />
               <p class="benefit-text">Unlimited Paid Time Off After<br>the First Month of Work</p>
             </div>
           </mj-text>
@@ -273,7 +296,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="44%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1hz0caKk3HYkWbhgmV3N9wAKO6zDaao1x" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=10a4UvngA9UaOv5kiEuKdjwZb8rHnxO8M" />
               <p class="benefit-text">Fixed<br>Monthly Payouts</p>
             </div>
           </mj-text>
@@ -285,7 +308,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=17a_izpGQoFgk5PjhVM7HHTf_RkS3oVTr" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1tm8zx1YZfdWx_RAIvqiipNk9MR5Gg8Cx" />
               <p class="benefit-text">Fair Overtime<br>Compensation</p>
             </div>
           </mj-text>
@@ -298,7 +321,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1wEMXiEXKdyzP4R1QJwpNbczhBWq8ehm9" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=18tYLYus0AeLqplpfx0AOUK2qNLHJy1-l" />
               <p class="benefit-text">Flexible<br>Schedule</p>
             </div>
           </mj-text>
@@ -311,7 +334,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1vwb7X8749PnVhk-GMgLxomYy3n3ufpmQ" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1OkZ8yJJaZ_S8elpGW6mP6K-xMOWfUvmj" />
               <p class="benefit-text">Mindfulness<br>Program</p>
             </div>
           </mj-text>
@@ -324,7 +347,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="39%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1gku7o94iMS2VHipo2B8PNG9sfMIP73CD" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1HaYciFtO9p3NP9bp194FhgPoEKBaV--5" />
               <p class="benefit-text">Professional<br>Development</p>
             </div>
           </mj-text>
@@ -337,7 +360,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="59%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=19puAZTZueREkKiTxkCxgjtIb-2SVLD43" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1a7__t5oHX1Nb7OjC2EMfCHSPe--jPD3g" />
               <p class="benefit-text">Regular Performance-Based<br>Compensation Reviews</p>
             </div>
           </mj-text>
@@ -351,7 +374,7 @@
           <mj-text>
             <a href="mailto:sofiia@awesomic.io">
               <div class="cta">
-                <img class="cta-img" src="https://drive.google.com/uc?export=view&id=1TJ81_oWRdog-rfkRHYEeT1bT24fHnuAB" width="24px" />
+                <img class="cta-img" src="https://drive.google.com/uc?export=view&id=14G7CAit6p4XcNOKWhSWnevo_md2P-t35" width="24px" />
                 <p class="cta-text"> EMAIL US BACK TO ACCEPT THIS OFFER</p>
               </div>
             </a>
@@ -363,8 +386,9 @@
       <mj-section padding-bottom="56px">
         <mj-column>
           <mj-text align="center">
-            <span>Questions? </span>
-            <a href="https://t.me/sofiia_nedilska">@sofiia_nedilska</a>
+            <span class="questions-title">Questions? </span>
+            <span style="padding-right:12px;"></span>
+            <a href="https://t.me/sofiia_nedilska" class="questions-link">@sofiia_nedilska</a>
           </mj-text>
         </mj-column>
       </mj-section>
