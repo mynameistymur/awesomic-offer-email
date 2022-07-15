@@ -20,6 +20,10 @@
         }
       }
 
+      .last {
+        display: none;
+      }
+
       p,
       li,
       a {
@@ -156,14 +160,14 @@
     <mj-wrapper background-color="#27273F" background-url="https://drive.google.com/uc?export=view&id=1Xn1xfvaC97HohG_eE-IktLq8fkAGghV8" background-size="cover">
 
       <!-- Head -->
-      <mj-section mj-class="hero" padding-bottom="16px">
+      <mj-section mj-class="hero" padding-bottom="16px" background-color="#27273F">
         <mj-column>
           <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=1Qehhku_2EDDp1eBKprU1rY0RWrN-xh9T" />
         </mj-column>
       </mj-section>
 
       <!-- Offer -->
-      <mj-section padding-bottom="48px" css-class="offer">
+      <mj-section padding-bottom="48px" css-class="offer" background-color="#27273F">
         <mj-column width="25%" padding-right="20px" vertical-align="bottom">
           <mj-image width="124px" src="https://drive.google.com/uc?export=view&id=1tV0wlTfqrzTim0E9Pl8uWerlKtpZRZrL" />
         </mj-column>
@@ -180,7 +184,7 @@
       </mj-section>
 
       <!-- Offer1 -->
-      <mj-section padding-bottom="48px" css-class="offer1">
+      <mj-section padding-bottom="48px" css-class="offer1" background-color="#27273F">
         <mj-column>
           <mj-text>
             <p style="text-align: center; font-size: 24px; line-height: 29px;">
@@ -196,7 +200,7 @@
       </mj-section>
 
       <!-- Details -->
-      <mj-section padding-bottom="48px">
+      <mj-section padding-bottom="48px" background-color="#27273F">
         <mj-column>
           <mj-text>
             <span class="detail">
@@ -232,7 +236,7 @@
       </mj-section>
 
       <!-- Benefits -->
-      <mj-section padding-bottom="6px">
+      <mj-section padding-bottom="6px" background-color="#27273F">
         <mj-column>
           <mj-text>
             <h2>A Quick Reminder of Our <span style="color:#FED9A5">Main Benefits:</span></h2>
@@ -241,7 +245,7 @@
       </mj-section>
 
       <!-- 1 -->
-      <mj-section mj-class="benefit-wrap">
+      <mj-section mj-class="benefit-wrap" background-color="#27273F">
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
@@ -279,7 +283,7 @@
       </mj-section>
 
       <!-- 2 -->
-      <mj-section mj-class="benefit-wrap">
+      <mj-section mj-class="benefit-wrap" background-color="#27273F">
         <mj-column mj-class="benefit" css-class="benefit" width="54%">
           <mj-text>
             <div>
@@ -304,7 +308,7 @@
       </mj-section>
 
       <!-- 3 -->
-      <mj-section mj-class="benefit-wrap">
+      <mj-section mj-class="benefit-wrap" background-color="#27273F">
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
@@ -343,7 +347,7 @@
 
 
       <!-- 4 -->
-      <mj-section mj-class="benefit-wrap">
+      <mj-section mj-class="benefit-wrap" background-color="#27273F">
         <mj-column mj-class="benefit" css-class="benefit" width="39%">
           <mj-text>
             <div>
@@ -369,7 +373,7 @@
 
 
       <!-- CTA -->
-      <mj-section padding-bottom="56px" padding-top="56px">
+      <mj-section padding-bottom="56px" padding-top="56px" background-color="#27273F">
         <mj-column>
           <mj-text>
             <a href="mailto:sofiia@awesomic.io">
@@ -383,7 +387,7 @@
       </mj-section>
 
       <!-- Questions -->
-      <mj-section padding-bottom="56px">
+      <mj-section padding-bottom="56px" background-color="#27273F">
         <mj-column>
           <mj-text align="center">
             <span class="questions-title">Questions? </span>
