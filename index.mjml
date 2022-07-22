@@ -20,6 +20,12 @@
         }
       }
 
+      @media only screen and (max-width:428px) {
+        .bg {
+          background-color: #27273F;
+        }
+      }
+
       .last {
         display: none;
       }
@@ -156,8 +162,8 @@
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="#f6f3f1">
-    <mj-wrapper background-color="#27273F" background-url="https://drive.google.com/uc?export=view&id=1Xn1xfvaC97HohG_eE-IktLq8fkAGghV8" background-size="cover">
+  <mj-body css-class="bg" background-color="#f6f3f1">
+    <mj-wrapper css-class="bg" background-color="#27273F" background-url="https://drive.google.com/uc?export=view&id=1Xn1xfvaC97HohG_eE-IktLq8fkAGghV8" background-size="cover">
 
       <!-- Head -->
       <mj-section mj-class="hero" padding-bottom="16px" background-color="#27273F">
