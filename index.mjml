@@ -4,7 +4,7 @@
     <mj-title>Awesomic Newsletter</mj-title>
     <mj-attributes>
       <mj-all padding="0" color="#ffffff" />
-      <mj-section padding-left="32px" padding-right="32px" background-color="#27273F" />
+      <mj-section padding-left="32px" padding-right="32px" />
       <mj-class name="hero" padding-left="0 !important" padding-right="0 !important" margin="0" />
       <mj-class name="benefit" background-color="#2A2A42" padding-left="12px" padding-right="12px" padding-top="8px" padding-bottom="6px" border-radius="6px" />
       <mj-class name="benefit-wrap" padding-top="6px" padding-bottom="6px" />
@@ -157,7 +157,7 @@
   </mj-head>
 
   <mj-body background-color="#f6f3f1">
-    <mj-wrapper background-color="#27273F" background-url="https://drive.google.com/uc?export=view&id=1Xn1xfvaC97HohG_eE-IktLq8fkAGghV8" background-size="cover">
+    <mj-wrapper background-color="#27273F" background-url="https://drive.google.com/uc?export=view&id=1hTm5Wrj_AaJd9b01ZtMRheIutobbP-oe" background-size="cover">
 
       <!-- Head -->
       <mj-section mj-class="hero" padding-bottom="16px" >
