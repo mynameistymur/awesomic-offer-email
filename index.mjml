@@ -122,7 +122,7 @@
         border-radius: 1px;
         background: linear-gradient(90.45deg, rgba(159, 213, 213, 0.08) -1.57%, rgba(181, 238, 200, 0.08) 47.86%, rgba(251, 231, 188, 0.08) 99.69%);
         backdrop-filter: blur(20px);
-        
+
       }
 
       .cta-img {
@@ -153,8 +153,16 @@
         line-height: 26px;
         color: #FFFFFF;
       }
-      u + .body .gmail-blend-screen { background:#27273F; mix-blend-mode:screen; }
-      u + .body .gmail-blend-difference { background:#27273F; mix-blend-mode:difference; }
+
+      u+.body .gmail-blend-screen {
+        background: #27273F;
+        mix-blend-mode: screen;
+      }
+
+      u+.body .gmail-blend-difference {
+        background: #27273F;
+        mix-blend-mode: difference;
+      }
     </mj-style>
 
   </mj-head>
@@ -163,28 +171,19 @@
     <mj-wrapper background-color="#27273F" background-url="https://drive.google.com/uc?export=view&id=1hTm5Wrj_AaJd9b01ZtMRheIutobbP-oe" background-size="cover">
 
       <!-- Head -->
-      <mj-section mj-class="hero" padding-bottom="16px" >
+      <mj-section mj-class="hero" padding-bottom="16px">
         <mj-column>
           <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=1Qehhku_2EDDp1eBKprU1rY0RWrN-xh9T" />
         </mj-column>
       </mj-section>
 
       <!-- Offer -->
-      <mj-section padding-bottom="48px" css-class="offer" >
+      <mj-section padding-bottom="48px" css-class="offer">
         <mj-column width="25%" padding-right="20px" vertical-align="bottom">
           <mj-image width="124px" src="https://drive.google.com/uc?export=view&id=1tV0wlTfqrzTim0E9Pl8uWerlKtpZRZrL" />
         </mj-column>
         <mj-column width="75%" vertical-align="bottom">
           <mj-text>
-          <div style="background:#27273F; background-image:linear-gradient(#27273F,#27273F); color:#fff;">
-        <div class="gmail-blend-screen">
-            <div class="gmail-blend-difference">
-                <!-- Your content starts here -->
-                Lorem ipsum dolor, sit amet, consectetur adipisicing elit.
-                <!-- Your content ends here -->
-            </div>
-        </div>
-    </div>
             <div class="offer-text">
               <p>
                 Hi <b>Sofia!</b><br> We are happy to offer you to <br>
@@ -196,9 +195,18 @@
       </mj-section>
 
       <!-- Offer1 -->
-      <mj-section padding-bottom="48px" css-class="offer1" >
+      <mj-section padding-bottom="48px" css-class="offer1">
         <mj-column>
           <mj-text>
+            <div style="background:#27273F; background-image:linear-gradient(#27273F,#27273F); color:#fff;">
+              <div class="gmail-blend-screen">
+                <div class="gmail-blend-difference">
+                  <!-- Your content starts here -->
+                  Lorem ipsum dolor, sit amet, consectetur adipisicing elit.
+                  <!-- Your content ends here -->
+                </div>
+              </div>
+            </div>
             <p style="text-align: center; font-size: 24px; line-height: 29px;">
               Hi, <b>Sofiia!</b>
             </p>
@@ -212,7 +220,7 @@
       </mj-section>
 
       <!-- Details -->
-      <mj-section padding-bottom="48px" >
+      <mj-section padding-bottom="48px">
         <mj-column>
           <mj-text>
             <span class="detail">
@@ -295,7 +303,7 @@
       </mj-section>
 
       <!-- 2 -->
-      <mj-section mj-class="benefit-wrap" >
+      <mj-section mj-class="benefit-wrap">
         <mj-column mj-class="benefit" css-class="benefit" width="54%">
           <mj-text>
             <div>
@@ -320,7 +328,7 @@
       </mj-section>
 
       <!-- 3 -->
-      <mj-section mj-class="benefit-wrap" >
+      <mj-section mj-class="benefit-wrap">
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
@@ -359,7 +367,7 @@
 
 
       <!-- 4 -->
-      <mj-section mj-class="benefit-wrap" >
+      <mj-section mj-class="benefit-wrap">
         <mj-column mj-class="benefit" css-class="benefit" width="39%">
           <mj-text>
             <div>
@@ -385,7 +393,7 @@
 
 
       <!-- CTA -->
-      <mj-section padding-bottom="56px" padding-top="56px" >
+      <mj-section padding-bottom="56px" padding-top="56px">
         <mj-column>
           <mj-text>
             <a href="mailto:sofiia@awesomic.io">
@@ -399,7 +407,7 @@
       </mj-section>
 
       <!-- Questions -->
-      <mj-section padding-bottom="56px" >
+      <mj-section padding-bottom="56px">
         <mj-column>
           <mj-text align="center">
             <span class="questions-title">Questions? </span>
