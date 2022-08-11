@@ -212,8 +212,8 @@
     }
 
     a {
-      text-decoration: none;
-      color: #FAE8BC;
+      text-decoration: none !important;
+      color: #FAE8BC !important;
     }
 
     a:hover {
@@ -286,7 +286,7 @@
       border: 1px dashed;
       border-left: solid;
       border-right: solid;
-      border-image: linear-gradient(270.05deg, #FAE4BC 0.02%, #DEF4E4 99.96%) 1 dashed;
+      border-image: linear-gradient(270.05deg, #FAE4BC 0.02%, #DEF4E4 99.96%) 1 dashed !important;
       border-radius: 1px;
       background: linear-gradient(90.45deg, rgba(159, 213, 213, 0.08) -1.57%, rgba(181, 238, 200, 0.08) 47.86%, rgba(251, 231, 188, 0.08) 99.69%);
       backdrop-filter: blur(20px);
@@ -319,16 +319,6 @@
       font-size: 16px;
       line-height: 26px;
       color: #FFFFFF;
-    }
-
-    u+.body .gmail-blend-screen {
-      background: #000;
-      mix-blend-mode: screen;
-    }
-
-    u+.body .gmail-blend-difference {
-      background: #000;
-      mix-blend-mode: difference;
     }
   </style>
 </head>
@@ -470,14 +460,6 @@
                                         <tr>
                                           <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
                                             <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#ffffff;">
-                                              <div style="background:#639; background-image:linear-gradient(#639,#639); color:#fff;">
-                                                <div class="gmail-blend-screen">
-                                                  <div class="gmail-blend-difference">
-                                                    <!-- Your content starts here --> Lorem ipsum dolor, sit amet, consectetur adipisicing elit.
-                                                    <!-- Your content ends here -->
-                                                  </div>
-                                                </div>
-                                              </div>
                                               <p style="text-align: center; font-size: 24px; line-height: 29px;"> Hi, <b>Sofiia!</b>
                                               </p>
                                             </div>
@@ -1061,10 +1043,10 @@
                                       <tbody>
                                         <tr>
                                           <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                                            <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#ffffff;"><a href="mailto:sofiia@awesomic.io">
-                                                <div class="cta">
+                                            <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#ffffff;"><a href="mailto:sofiia@awesomic.io" style="text-decoration: none !important; color: #FAE8BC !important;">
+                                                <div class="cta" style="border-image: linear-gradient(270.05deg, #FAE4BC 0.02%, #DEF4E4 99.96%) 1 dashed !important;">
                                                   <img class="cta-img" src="https://drive.google.com/uc?export=view&id=14G7CAit6p4XcNOKWhSWnevo_md2P-t35" width="24px" />
-                                                  <p class="cta-text"> EMAIL US BACK TO ACCEPT THIS OFFER</p>
+                                                  <p class="cta-text" style=" color: #FAE8BC !important;"> EMAIL US BACK TO ACCEPT THIS OFFER</p>
                                                 </div>
                                               </a></div>
                                           </td>
