@@ -1,12 +1,12 @@
 <mjml>
   <mj-head>
-    <mj-preview>Awesomic Newsletter</mj-preview>
-    <mj-title>Awesomic Newsletter</mj-title>
+    <mj-preview>Awesomic Offer</mj-preview>
+    <mj-title>Awesomic Offer</mj-title>
     <mj-attributes>
-      <mj-all padding="0" color="#ffffff" />
+      <mj-all padding="0" color="#222235" />
       <mj-section padding-left="32px" padding-right="32px" />
-      <mj-class name="hero" padding-left="0 !important" padding-right="0 !important" margin="0" />
-      <mj-class name="benefit" background-color="#2A2A42" padding-left="12px" padding-right="12px" padding-top="8px" padding-bottom="6px" border-radius="6px" />
+      <mj-class name="hero" padding-left="16px !important" padding-right="16px !important" padding-top="16px !important" padding-bottom="32px !important" margin="0" border-radius="80px" />
+      <mj-class name="benefit" background-color="#fff" padding-left="12px" padding-right="12px" padding-top="8px" padding-bottom="6px" border-radius="6px" />
       <mj-class name="benefit-wrap" padding-top="6px" padding-bottom="6px" />
     </mj-attributes>
     <mj-style>
@@ -62,13 +62,14 @@
         float: left;
         margin-right: 20px;
       }
-
+      
       .offer-text {
-        background-image: url("https://drive.google.com/uc?export=view&id=1ten6jrSTM5GXTmuFevMDqaMU_G4N_EOr");
-        background-size: cover;
-        padding-left: 42px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        padding: 0px !important;
         max-width: 300px;
       }
 
@@ -91,7 +92,7 @@
       }
 
       .benefit {
-        box-shadow: 0px 34.0602px 56.1964px rgba(12, 12, 22, 0.2);
+        box-shadow: 0px 4px 4px rgba(12, 12, 22, 0.05);
       }
 
       .benefit-text {
@@ -157,13 +158,14 @@
 
   </mj-head>
 
-  <mj-body background-color="#f6f3f1">
-    <mj-wrapper background-color="#27273F" background-url="https://drive.google.com/uc?export=view&id=1hTm5Wrj_AaJd9b01ZtMRheIutobbP-oe" background-size="cover">
+  <mj-body background-color="#E1E1E1">
+    <mj-wrapper background-color="#FAFAFD">
 
       <!-- Head -->
       <mj-section mj-class="hero" padding-bottom="16px">
         <mj-column>
-          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=1Qehhku_2EDDp1eBKprU1rY0RWrN-xh9T" />
+          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=1o7LTUpnO7-srsXVcw9Wzqlv22ycDeNEW" />
+          <mj-spacer height="16px" />
         </mj-column>
       </mj-section>
 
@@ -175,10 +177,8 @@
         <mj-column width="75%" vertical-align="bottom">
           <mj-text>
             <div class="offer-text">
-              <p>
-                Hi <b>Sofia!</b><br> We are happy to offer you to <br>
-                join the Awesomic Community
-              </p>
+              Hi <b>Sofia!</b><br> We are happy to offer you to <br>
+              join the Awesomic Community
             </div>
           </mj-text>
         </mj-column>
@@ -240,7 +240,7 @@
       <mj-section padding-bottom="6px">
         <mj-column>
           <mj-text>
-            <h2>A Quick Reminder of Our <span style="color:#FED9A5">Main Benefits:</span></h2>
+            <h2>A Quick Reminder of Our <span style="color:#F2A9A6">Main Benefits:</span></h2>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -372,29 +372,10 @@
         </mj-column>
       </mj-section>
 
-
-      <!-- CTA -->
-      <mj-section padding-bottom="56px" padding-top="56px">
+      <mj-section mj-class="hero" padding-bottom="16px">
         <mj-column>
-          <mj-text>
-            <a href="mailto:sofiia@awesomic.io" style="text-decoration: none !important; color: #FAE8BC !important;">
-              <div class="cta" style="border-image: linear-gradient(270.05deg, #FAE4BC 0.02%, #DEF4E4 99.96%) 1 dashed !important;">
-                <img class="cta-img" src="https://drive.google.com/uc?export=view&id=14G7CAit6p4XcNOKWhSWnevo_md2P-t35" width="24px" />
-                <p class="cta-text" style=" color: #FAE8BC !important;"> EMAIL US BACK TO ACCEPT THIS OFFER</p>
-              </div>
-            </a>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <!-- Questions -->
-      <mj-section padding-bottom="56px">
-        <mj-column>
-          <mj-text align="center">
-            <span class="questions-title">Questions? </span>
-            <span style="padding-right:12px;"></span>
-            <a href="https://t.me/sofiia_nedilska" class="questions-link">@sofiia_nedilska</a>
-          </mj-text>
+        <mj-spacer height="16px" />
+          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=1oyiLnxuKCYqEHPeL8VJR5nCSexpImnWM" />
         </mj-column>
       </mj-section>
     </mj-wrapper>
