@@ -3,7 +3,7 @@
     <mj-preview>Awesomic Offer</mj-preview>
     <mj-title>Awesomic Offer</mj-title>
     <mj-attributes>
-      <mj-all padding="0" color="#222235" />
+      <mj-all padding="0" color="#222236" />
       <mj-section padding-left="32px" padding-right="32px" />
       <mj-class name="hero" padding-left="16px !important" padding-right="16px !important" padding-top="16px !important" padding-bottom="32px !important" margin="0" border-radius="80px" />
       <mj-class name="benefit" background-color="#fff" padding-left="12px" padding-right="12px" padding-top="8px" padding-bottom="6px" border-radius="6px" />
@@ -62,7 +62,7 @@
         float: left;
         margin-right: 20px;
       }
-      
+
       .offer-text {
         font-family: Arial, sans-serif;
         font-size: 18px;
@@ -92,7 +92,7 @@
       }
 
       .benefit {
-        box-shadow: 0px 4px 4px rgba(12, 12, 22, 0.05);
+        box-shadow: 0px 10px 40px rgba(180, 192, 226, 0.15);
       }
 
       .benefit-text {
@@ -164,15 +164,15 @@
       <!-- Head -->
       <mj-section mj-class="hero" padding-bottom="16px">
         <mj-column>
-          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=1o7LTUpnO7-srsXVcw9Wzqlv22ycDeNEW" />
-          <mj-spacer height="16px" />
+          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=17MU10oVzqP9ulN2XOYKC9sIk377qT909" />
+          <mj-spacer height="40px" />
         </mj-column>
       </mj-section>
 
       <!-- Offer -->
-      <mj-section padding-bottom="48px" css-class="offer">
+      <mj-section padding-bottom="40px" css-class="offer">
         <mj-column width="25%" padding-right="20px" vertical-align="bottom">
-          <mj-image width="124px" src="https://drive.google.com/uc?export=view&id=1tV0wlTfqrzTim0E9Pl8uWerlKtpZRZrL" />
+          <mj-image width="124px" src="https://drive.google.com/uc?export=view&id=1FAS65xXIlft2SmpwCxD1xtoDDdZDQgF9" />
         </mj-column>
         <mj-column width="75%" vertical-align="bottom">
           <mj-text>
@@ -201,19 +201,19 @@
       </mj-section>
 
       <!-- Details -->
-      <mj-section padding-bottom="48px">
+      <mj-section padding-bottom="32px">
         <mj-column>
           <mj-text>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
               <p>Role: <b>UI/UX Designer</b></p>
             </span>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
               <p>Type: <b>part-time</b></p>
             </span>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
               <p>Hours: <b>4 hrs per day</b></p>
             </span>
           </mj-text>
@@ -221,15 +221,15 @@
         <mj-column>
           <mj-text>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
               <p>Compensation: <b>$1000</b></p>
             </span>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
               <p>Starting date: <b>10.05.2022</b></p>
             </span>
             <span class="detail">
-              <img src="https://drive.google.com/uc?export=view&id=12aiSJ2339ju18pE4KGcBF7lR5cEelE9I" />
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
               <p>Test task payment: <b>$100</b></p>
             </span>
           </mj-text>
@@ -240,7 +240,7 @@
       <mj-section padding-bottom="6px">
         <mj-column>
           <mj-text>
-            <h2>A Quick Reminder of Our <span style="color:#F2A9A6">Main Benefits:</span></h2>
+            <h2>A Quick Reminder of Our <span style="color:#FEA5A5">Main Benefits:</span></h2>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -250,7 +250,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1BA_F72aRCcEvc2YTrXJFI7mqW-36WRTZ" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Design<br>Community</p>
             </div>
           </mj-text>
@@ -263,7 +263,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1E70jQNYBDhu0kxHwzLw2_3dcYVBkv-dd" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Constant<br>Flow of Work</p>
             </div>
           </mj-text>
@@ -276,7 +276,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1-nft7sWj3wRgzDaNiNf72EkZQV9DaSeJ" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Remote<br>Work</p>
             </div>
           </mj-text>
@@ -288,7 +288,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="54%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1jsuOqa6PYSf2RJHc1UYDx_8i6IMFaiRQ" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Unlimited Paid Time Off After<br>the First Month of Work</p>
             </div>
           </mj-text>
@@ -301,7 +301,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="44%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=10a4UvngA9UaOv5kiEuKdjwZb8rHnxO8M" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Fixed<br>Monthly Payouts</p>
             </div>
           </mj-text>
@@ -313,7 +313,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1tm8zx1YZfdWx_RAIvqiipNk9MR5Gg8Cx" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Fair Overtime<br>Compensation</p>
             </div>
           </mj-text>
@@ -326,7 +326,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=18tYLYus0AeLqplpfx0AOUK2qNLHJy1-l" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Flexible<br>Schedule</p>
             </div>
           </mj-text>
@@ -339,7 +339,7 @@
         <mj-column mj-class="benefit" css-class="benefit" width="32%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1OkZ8yJJaZ_S8elpGW6mP6K-xMOWfUvmj" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Mindfulness<br>Program</p>
             </div>
           </mj-text>
@@ -348,11 +348,11 @@
 
 
       <!-- 4 -->
-      <mj-section mj-class="benefit-wrap">
+      <mj-section mj-class="benefit-wrap" padding-bottom="34px">
         <mj-column mj-class="benefit" css-class="benefit" width="39%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1HaYciFtO9p3NP9bp194FhgPoEKBaV--5" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Professional<br>Development</p>
             </div>
           </mj-text>
@@ -365,17 +365,20 @@
         <mj-column mj-class="benefit" css-class="benefit" width="59%">
           <mj-text>
             <div>
-              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1a7__t5oHX1Nb7OjC2EMfCHSPe--jPD3g" />
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
               <p class="benefit-text">Regular Performance-Based<br>Compensation Reviews</p>
             </div>
           </mj-text>
         </mj-column>
       </mj-section>
 
+      <!-- Footer -->
       <mj-section mj-class="hero" padding-bottom="16px">
         <mj-column>
-        <mj-spacer height="16px" />
-          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=1oyiLnxuKCYqEHPeL8VJR5nCSexpImnWM" />
+          <mj-spacer height="16px" />
+          <mj-text>
+            <a href="#"><img width="600px" src="https://drive.google.com/uc?export=view&id=1xvaOvaGRayovncRBrX7yqcvCpDQIJCkf" /></a>
+          </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
