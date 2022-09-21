@@ -1,0 +1,382 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Awesomic Offer</mj-preview>
+    <mj-title>Awesomic Offer</mj-title>
+    <mj-attributes>
+      <mj-all padding="0" color="#222236" />
+      <mj-section padding-left="32px" padding-right="32px" />
+      <mj-class name="hero" padding-left="16px !important" padding-right="16px !important" padding-top="16px !important" padding-bottom="32px !important" margin="0" border-radius="80px" />
+      <mj-class name="benefit" background-color="#fff" padding-left="12px" padding-right="12px" padding-top="8px" padding-bottom="6px" border-radius="6px" />
+      <mj-class name="benefit-wrap" padding-top="6px" padding-bottom="6px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width:485px) {
+        .offer {
+          display: none;
+        }
+
+        .offer1 {
+          display: block !important;
+        }
+      }
+
+      .last {
+        display: none;
+      }
+
+      p,
+      li,
+      a {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.03em;
+        padding: 0px !important;
+      }
+
+      h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.03em;
+      }
+
+      a {
+        text-decoration: none !important;
+        color: #FAE8BC !important;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: #FAE8BC;
+      }
+
+      .offer1 {
+        display: none;
+      }
+
+      .offer-img {
+        width: 124px;
+        float: left;
+        margin-right: 20px;
+      }
+
+      .offer-text {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        padding: 0px !important;
+        max-width: 300px;
+      }
+
+      .detail {
+        display: block;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        vertical-align: center;
+      }
+
+      .detail p {
+        display: inline;
+      }
+
+      .detail img {
+        width: 8px;
+        padding-right: 10px;
+      }
+
+      .benefit {
+        box-shadow: 0px 10px 40px rgba(180, 192, 226, 0.15);
+      }
+
+      .benefit-text {
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+      }
+
+      .benefit-img {
+        float: left;
+        height: 36px;
+        margin-right: 12px;
+      }
+
+      .cta {
+        align: center;
+        text-align: center;
+        width: 100%;
+        max-width: 536px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px dashed;
+        border-left: solid;
+        border-right: solid;
+        border-image: linear-gradient(270.05deg, #FAE4BC 0.02%, #DEF4E4 99.96%) 1 dashed !important;
+        border-radius: 1px;
+        background: linear-gradient(90.45deg, rgba(159, 213, 213, 0.08) -1.57%, rgba(181, 238, 200, 0.08) 47.86%, rgba(251, 231, 188, 0.08) 99.69%);
+        backdrop-filter: blur(20px);
+
+      }
+
+      .cta-img {
+        vertical-align: middle !important;
+        width: 24px;
+        margin-right: 15px
+      }
+
+      .cta-text {
+        vertical-align: middle !important;
+        display: inline;
+        padding: 0px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .questions-title {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: bold;
+        color: #A8DCCE;
+      }
+
+      .questions-link {
+        font-style: normal;
+        font-weight: regular;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#f5f5f5">
+    <mj-wrapper background-color="#FAFAFD">
+
+      <!-- Head -->
+      <mj-section mj-class="hero" padding-bottom="16px">
+        <mj-column>
+          <mj-image width="600px" src="https://drive.google.com/uc?export=view&id=17MU10oVzqP9ulN2XOYKC9sIk377qT909" />
+          <mj-spacer height="40px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Offer -->
+      <mj-section padding-bottom="40px" css-class="offer">
+        <mj-column width="25%" padding-right="20px" vertical-align="bottom">
+          <mj-image width="124px" src="https://drive.google.com/uc?export=view&id=1FAS65xXIlft2SmpwCxD1xtoDDdZDQgF9" />
+        </mj-column>
+        <mj-column width="75%" vertical-align="bottom">
+          <mj-text>
+            <div class="offer-text">
+              Hi <b>Sofia!</b><br> We are happy to offer you to <br>
+              join the Awesomic Community
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Offer1 -->
+      <mj-section padding-bottom="48px" css-class="offer1">
+        <mj-column>
+          <mj-text>
+            <p style="text-align: center; font-size: 24px; line-height: 29px;">
+              Hi, <b>Sofiia!</b>
+            </p>
+          </mj-text>
+          <mj-text>
+            <p style="text-align: center; font-size: 14px; line-height: 22px;">
+              It is my pleasure to offer you to join the Awesomic Design Community!
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Details -->
+      <mj-section padding-bottom="32px">
+        <mj-column>
+          <mj-text>
+            <span class="detail">
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
+              <p>Role: <b>UI/UX Designer</b></p>
+            </span>
+            <span class="detail">
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
+              <p>Type: <b>part-time</b></p>
+            </span>
+            <span class="detail">
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
+              <p>Hours: <b>4 hrs per day</b></p>
+            </span>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <span class="detail">
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
+              <p>Compensation: <b>$1000</b></p>
+            </span>
+            <span class="detail">
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
+              <p>Starting date: <b>10.05.2022</b></p>
+            </span>
+            <span class="detail">
+              <img src="https://drive.google.com/uc?export=view&id=1t2utKDuYUWoc5zQhVQv-C3vRbgWwuoGJ" />
+              <p>Test task payment: <b>$100</b></p>
+            </span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Benefits -->
+      <mj-section padding-bottom="6px">
+        <mj-column>
+          <mj-text>
+            <h2>A Quick Reminder of Our <span style="color:#FEA5A5">Main Benefits:</span></h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- 1 -->
+      <mj-section mj-class="benefit-wrap">
+        <mj-column mj-class="benefit" css-class="benefit" width="32%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1L6Ji9hOzKxoaCrJO_WVqJUzKf86-ubFz" />
+              <p class="benefit-text">Design<br>Community</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="2%">
+          <mj-spacer height="12px" />
+        </mj-column>
+
+        <mj-column mj-class="benefit" css-class="benefit" width="32%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1zfWWqQifs9KUYgP5cRy-is0kTFMeaAXH" />
+              <p class="benefit-text">Constant<br>Flow of Work</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="2%">
+          <mj-spacer height="12px" />
+        </mj-column>
+
+        <mj-column mj-class="benefit" css-class="benefit" width="32%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=125Iu-zyKv6L6l2X_uyIDoIxBJWCuzWZE" />
+              <p class="benefit-text">Remote<br>Work</p>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- 2 -->
+      <mj-section mj-class="benefit-wrap">
+        <mj-column mj-class="benefit" css-class="benefit" width="54%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1NT3OARgFMAg8q5tbUb2KBfP2cDXkY0Vq" />
+              <p class="benefit-text">Unlimited Paid Time Off After<br>the First Month of Work</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="2%">
+          <mj-spacer height="12px" />
+        </mj-column>
+
+        <mj-column mj-class="benefit" css-class="benefit" width="44%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1qwkjO0bkj1JzbdoLSpiM_bCIA-SR4s1e" />
+              <p class="benefit-text">Fixed<br>Monthly Payouts</p>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- 3 -->
+      <mj-section mj-class="benefit-wrap">
+        <mj-column mj-class="benefit" css-class="benefit" width="32%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1COux-VFQouOQNU6AQiumhgSemBpxOwZm" />
+              <p class="benefit-text">Fair Overtime<br>Compensation</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="2%">
+          <mj-spacer height="12px" />
+        </mj-column>
+
+        <mj-column mj-class="benefit" css-class="benefit" width="32%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1hNUhs8WMPV9YUlHtC00vTjuHJzeMg5hc" />
+              <p class="benefit-text">Flexible<br>Schedule</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="2%">
+          <mj-spacer height="12px" />
+        </mj-column>
+
+        <mj-column mj-class="benefit" css-class="benefit" width="32%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1R2xuMgZYgzNfvqwnTHrnV_-V80ZI4KVU" />
+              <p class="benefit-text">Mindfulness<br>Program</p>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- 4 -->
+      <mj-section mj-class="benefit-wrap" padding-bottom="40px">
+        <mj-column mj-class="benefit" css-class="benefit" width="39%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1S7VwCJhb-S2b5BcPZSNPGJNxMpx4ay3M" />
+              <p class="benefit-text">Professional<br>Development</p>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="2%">
+          <mj-spacer height="12px" />
+        </mj-column>
+
+        <mj-column mj-class="benefit" css-class="benefit" width="59%">
+          <mj-text>
+            <div>
+              <img class="benefit-img" src="https://drive.google.com/uc?export=view&id=1shfvKKHWCY9WGfIvgcjugd7l7uxKm-hf" />
+              <p class="benefit-text">Regular Performance-Based<br>Compensation Reviews</p>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-section mj-class="hero" padding-bottom="16px">
+        <mj-column>
+          <mj-image href="mailto:sofiia@awesomic.io?subject=I%20am%20accepting%20the%20offer%20from%20Awesomic" width="600px" src="https://drive.google.com/uc?export=view&id=1xvaOvaGRayovncRBrX7yqcvCpDQIJCkf" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+</mjml>
